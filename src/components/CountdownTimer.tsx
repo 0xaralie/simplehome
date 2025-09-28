@@ -34,7 +34,7 @@ export function CountdownTimer() {
   }, []);
 
   return (
-    <div className="flex items-center justify-center space-x-4 my-6">
+    <div className="flex items-center justify-center space-x-2 sm:space-x-4 my-6">
       {[
         { label: 'Hari', value: timeLeft.days },
         { label: 'Jam', value: timeLeft.hours },
@@ -46,11 +46,11 @@ export function CountdownTimer() {
             backdrop-blur-md bg-white/15 
             border border-white/30 
             rounded-2xl px-4 py-3 
-            min-w-[80px]
+            min-w-[60px] sm:min-w-[80px]
             shadow-lg
           ">
-            <div className="text-2xl font-bold text-white">{value}</div>
-            <div className="text-sm text-white/80">{label}</div>
+            <div className="text-lg sm:text-2xl font-bold text-white">{value}</div>
+            <div className="text-xs sm:text-sm text-white/80">{label}</div>
           </div>
         </div>
       ))}

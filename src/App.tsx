@@ -31,7 +31,7 @@ function App() {
       </header>
 
       {/* Main Content */}
-      <main className="relative z-10 max-w-4xl mx-auto px-4 py-12">
+      <main className="relative z-10 max-w-4xl mx-auto px-4 py-6">
         <GlassCard className="text-center space-y-8">
           <div>
             <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-cyan-300 to-blue-400 bg-clip-text text-transparent">
