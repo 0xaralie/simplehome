@@ -12,7 +12,7 @@ export function GlassButton({
   className = '' 
 }: GlassButtonProps) {
   const baseClasses = `
-    backdrop-blur-md border rounded-full px-8 py-4 font-medium
+    backdrop-blur-md border rounded-full px-8 py-4 font-medium font-font-b
     transition-all duration-300 cursor-pointer
     hover:scale-105 active:scale-95
     shadow-lg hover:shadow-2xl

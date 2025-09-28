@@ -49,8 +49,8 @@ export function CountdownTimer() {
             min-w-[60px] sm:min-w-[80px]
             shadow-lg
           ">
-            <div className="text-lg sm:text-2xl font-bold text-white">{value}</div>
-            <div className="text-xs sm:text-sm text-white/80">{label}</div>
+            <div className="text-lg sm:text-2xl font-bold font-font-b text-white">{value}</div>
+            <div className="text-xs sm:text-sm font-font-b text-white/80">{label}</div>
           </div>
         </div>
       ))}

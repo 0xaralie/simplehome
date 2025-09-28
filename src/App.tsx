@@ -24,7 +24,7 @@ function App() {
       {/* Header */}
       <header className="relative z-10 text-center py-8">
         <div className="backdrop-blur-md bg-white/5 border-b border-white/10">
-          <h1 className="text-5xl font-bold bg-gradient-to-r from-cyan-300 via-blue-400 to-blue-600 bg-clip-text text-transparent tracking-[0.15em] py-6">
+          <h1 className="text-5xl font-bold font-font-a bg-gradient-to-r from-cyan-300 via-blue-400 to-blue-600 bg-clip-text text-transparent tracking-[0.15em] py-6">
             RAINS
           </h1>
         </div>
@@ -34,18 +34,18 @@ function App() {
       <main className="relative z-10 max-w-4xl mx-auto px-4 py-6">
         <GlassCard className="text-center space-y-8">
           <div>
-            <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-cyan-300 to-blue-400 bg-clip-text text-transparent">
+            <h2 className="text-4xl font-bold font-font-b mb-6 bg-gradient-to-r from-cyan-300 to-blue-400 bg-clip-text text-transparent">
               Canva Pro Team
             </h2>
             
             <div className="space-y-4">
-              <p className="text-xl text-white/90">
+              <p className="text-xl font-font-b text-white/90">
                 Canva Pro akan berakhir dalam
               </p>
               
               <CountdownTimer />
               
-              <p className="text-white/80 max-w-2xl mx-auto leading-relaxed">
+              <p className="text-white/80 font-font-b max-w-2xl mx-auto leading-relaxed">
                 Akan selalu diperbarui saat masa berlakunya habis. Kembali ke sini jika kalian butuh lagi.
               </p>
             </div>
@@ -56,7 +56,7 @@ function App() {
             <GlassButton 
               onClick={handleJoinCanva}
               variant="primary"
-              className="w-full sm:w-auto text-lg"
+              className="w-full sm:w-auto text-lg font-font-b"
             >
               Join Canva Pro
             </GlassButton>
@@ -64,7 +64,7 @@ function App() {
             <GlassButton 
               onClick={shareToWhatsApp}
               variant="secondary"
-              className="w-full sm:w-auto text-lg"
+              className="w-full sm:w-auto text-lg font-font-b"
             >
               Simpan ke WhatsApp
             </GlassButton>
@@ -75,7 +75,7 @@ function App() {
       {/* Footer */}
       <footer className="relative z-10 text-center py-8 mt-16">
         <div className="backdrop-blur-md bg-white/5 border-t border-white/10 py-6">
-          <p className="text-white/60">
+          <p className="text-white/60 font-font-b">
             &copy; 2025 Rains. Made for fun.
           </p>
         </div>
