@@ -24,9 +24,16 @@ function App() {
       {/* Header */}
       <header className="relative z-10 text-center py-8">
         <div className="backdrop-blur-md bg-white/5 border-b border-white/10">
-          <h1 className="text-5xl font-bold font-font-a bg-gradient-to-r from-cyan-300 via-blue-400 to-blue-600 bg-clip-text text-transparent tracking-[0.15em] py-6">
-            RAINS
-          </h1>
+          <div className="py-6">
+            <h1 className="text-5xl font-bold font-font-a bg-gradient-to-r from-cyan-300 via-blue-400 to-blue-600 bg-clip-text text-transparent tracking-[0.15em] mb-4">
+              RAINS
+            </h1>
+            <div className="overflow-hidden whitespace-nowrap">
+              <div className="inline-block animate-scroll font-font-b text-lg text-white/80">
+                Selamat datang teman-teman, semoga kalian suka! • Selamat datang teman-teman, semoga kalian suka! • Selamat datang teman-teman, semoga kalian suka! • 
+              </div>
+            </div>
+          </div>
         </div>
       </header>
 
