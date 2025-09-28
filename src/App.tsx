@@ -24,7 +24,7 @@ function App() {
       {/* Header */}
       <header className="relative z-10 text-center py-8">
         <div className="backdrop-blur-md bg-white/5 border-b border-white/10">
-          <h1 className="text-8xl font-bold bg-gradient-to-r from-blue-400 via-purple-300 to-pink-300 bg-clip-text text-transparent tracking-[0.2em] py-6">
+          <h1 className="text-5xl font-bold bg-gradient-to-r from-cyan-300 via-blue-400 to-blue-600 bg-clip-text text-transparent tracking-[0.15em] py-6">
             RAINS
           </h1>
         </div>
@@ -34,7 +34,7 @@ function App() {
       <main className="relative z-10 max-w-4xl mx-auto px-4 py-12">
         <GlassCard className="text-center space-y-8">
           <div>
-            <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-blue-300 to-purple-300 bg-clip-text text-transparent">
+            <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-cyan-300 to-blue-400 bg-clip-text text-transparent">
               Canva Pro Team
             </h2>
             

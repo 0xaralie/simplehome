@@ -20,9 +20,9 @@ export function GlassButton({
 
   const variants = {
     primary: `
-      bg-gradient-to-r from-blue-500/30 to-purple-600/30
+      bg-gradient-to-r from-cyan-500/30 to-blue-600/30
       border-white/30 text-white
-      hover:from-blue-400/40 hover:to-purple-500/40
+      hover:from-cyan-400/40 hover:to-blue-500/40
       hover:border-white/50
     `,
     secondary: `
